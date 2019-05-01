@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Estourando Balões</title>
+
+	<!--link do css-->
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+
+	<!--link do js-->
+	<script type="text/javascript" src="jogo.js"></script>
+	
+	<!--link do bootstrap-->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	 
+	 
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body id="fundo">
+	<div class="container" id="fundo-inicio">
+		<header class="page-header">
+			<h1>BOOM</h1>
+		</header>
+		<div id="nivel" >
+			<p>
+				<h4><b>Nivel do Jogo</b></h4><r>
+				<select id="nivel_jogo"class="form-control" autofocus="">
+					<option value="0"> </option>
+					<option value="1">Fácil</option>
+					<option value="2">Moderado</option>
+					<option value="3">Difícil</option>
+				</select>
+				<img id="btn-iniciar" src="imagens/iniciar.png" onclick="iniciar_jogo();">
+			</p>		
+		</div>
+		
+
+	</div>
+
+</body>
+</html>

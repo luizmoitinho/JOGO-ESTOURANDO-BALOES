@@ -1,0 +1,56 @@
+#fundo{
+	background-color: #00688B;
+}
+#fundo-inicio{
+	margin-top:5%;
+	background-color: #fff;
+	height: 270px;
+}
+#cenario{
+	margin-top:5%;
+	background-color: #fff;
+	padding: 10px;
+}
+#cenario-jogo{
+	display: inline-block;
+	margin-top: -300px;
+	margin-right: 200px;
+	width: 600px;
+	height: 500px;
+	float: right;
+	background: url('imagens/cenario.png');
+	background-position: bottom;
+}
+#baloes_inteiros, #baloes_estourados{
+	font-size: 30px;
+}
+#cronometro{
+	width:140px;
+	height: 132px;
+}
+.page-header{
+	text-align: center;
+}
+#nivel{
+	text-align: center;
+	margin:auto;
+	width: 50%;
+}
+#tempo{
+	text-align: center;
+	margin-left: 50px;
+	color: red;
+	font-size: 25px;
+}
+#btn-iniciar{
+	margin-top: 30px;
+	width: 50px
+}
+#btn-iniciar:hover{
+	border:2px solid #00688B;
+	border-radius: 2px;
+}
+
+table{
+	margin-left: 10px;
+}

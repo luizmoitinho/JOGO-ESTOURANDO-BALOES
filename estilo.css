@@ -27,6 +27,7 @@
 #cronometro{
 	width:140px;
 	height: 132px;
+	text-align: center;
 }
 .page-header{
 	text-align: center;
@@ -37,8 +38,8 @@
 	width: 50%;
 }
 #tempo{
-	text-align: center;
-	margin-left: 50px;
+	
+	margin:0 auto;
 	color: red;
 	font-size: 25px;
 }
